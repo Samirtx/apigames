@@ -8,5 +8,16 @@ Nehum
 #### Respostas
 ##### OK! 200
 Caso essa resposta aconteça você vai receber a listagem de todos os games.
+
+Exemplo de resposta:
+```
+{
+    "err": "Token inválido!"
+}
+```
 ##### Falha na autenticação! 401
 Caso essa resposta aconteça, isso significa que aconteceu alguma falha durane o processo de autenticação de requisição. Motivos: Token inválido, token inspirado.
+
+Exemplo de resposta:
+```
+
